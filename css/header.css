@@ -32,6 +32,10 @@ header nav {
    color: #5a5858;
 }
 
-header nav li:not(:last-child) {
+header nav li {
    padding-inline-end: 1rem;
+}
+
+header nav li:last-child {
+   color: #ff8f00;
 }

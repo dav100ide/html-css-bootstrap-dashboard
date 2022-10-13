@@ -5,7 +5,11 @@ main {
       top-bar
 ========================== */
 .top-bar {
-   background-color: rgb(106, 116, 255);
+   background-color: #1c71e8;
+   color: white;
+}
+
+.ms_top-info {
 }
 
 /* =======================
