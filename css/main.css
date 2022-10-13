@@ -1,3 +1,16 @@
+main {
+   overflow-y: auto;
+}
+/* =======================
+      top-bar
+========================== */
 .top-bar {
    background-color: rgb(106, 116, 255);
+}
+
+/* =======================
+      page-content
+========================== */
+.page-content {
+   background-color: yellowgreen;
 }

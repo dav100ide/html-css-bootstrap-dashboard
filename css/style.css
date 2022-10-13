@@ -7,7 +7,9 @@
 /* =======================
       DEBUG  
 ========================== */
-
+* {
+   word-break: break-all;
+}
 header {
    background-color: lightcoral;
 }
