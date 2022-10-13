@@ -1,7 +1,15 @@
 /* =======================
       my VARIABLES   
 ========================== */
+:root {
+   /* colors */
 
+   /* misure macro aree*/
+   --header-height: 3.5rem;
+
+   /* misure micro aree */
+   --ms_space-1: 1rem;
+}
 /* =======================
       my reset   
 ========================== */
@@ -22,11 +30,6 @@ a {
 body {
    font-family: 'Roboto', sans-serif;
 }
-
-/* =======================
-      COMMONS
-========================== */
-/* struttura macro aree */
 
 /* =======================
       my UTILITIES   

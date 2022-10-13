@@ -1,0 +1,8 @@
+aside {
+   display: flex;
+   flex-flow: column nowrap;
+}
+
+aside :last-child {
+   margin-top: auto;
+}
