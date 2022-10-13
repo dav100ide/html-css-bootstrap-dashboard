@@ -1,0 +1,33 @@
+/* =======================
+      my VARIABLES   
+========================== */
+
+/* =======================
+      my reset   
+========================== */
+ul {
+   padding: 0;
+   list-style: none;
+   margin-bottom: 0;
+}
+
+a {
+   color: inherit;
+   text-decoration: none;
+}
+
+/* =======================
+      TYPOGRAPHY  
+========================== */
+body {
+   font-family: 'Roboto', sans-serif;
+}
+
+/* =======================
+      COMMONS
+========================== */
+/* struttura macro aree */
+
+/* =======================
+      my UTILITIES   
+========================== */
