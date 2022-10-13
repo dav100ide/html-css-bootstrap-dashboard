@@ -1,24 +1,36 @@
 header {
-}
-.ms_logo {
+   background-color: #f8f9fa;
 }
 
 .ms_logo > img.d-lg-none {
    width: 3.75rem;
    max-height: 3.75rem;
 }
-.ms_logo + .col {
-   background-color: yellow;
-}
 
-header > .container-fluid,
+/* header > .container-fluid,
 header > .container-fluid > .row {
    height: 100%;
+} */
+
+/* =======================
+      header search bar
+========================== */
+#header-search-bar {
+   background-color: #e5e5e5;
+   border: none;
+}
+
+#header-search-bar::placeholder {
+   font-size: 0.8rem;
 }
 
 /* =======================
       header nav
 ========================== */
+header nav {
+   background-color: white;
+   color: #5a5858;
+}
 
 header nav li:not(:last-child) {
    padding-inline-end: 1rem;

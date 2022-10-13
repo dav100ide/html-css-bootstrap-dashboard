@@ -5,7 +5,7 @@
    /* colors */
 
    /* misure macro aree*/
-   --header-height: 5.0519rem;
+   --header-height: 4.375rem;
 
    /* misure micro aree */
    --ms_space-1: 1rem;
@@ -24,11 +24,17 @@ a {
    text-decoration: none;
 }
 
+button {
+   color: inherit;
+   border: none;
+   background-color: transparent;
+}
+
 /* =======================
       TYPOGRAPHY  
 ========================== */
 body {
-   font-family: 'Roboto', sans-serif;
+   font-family: "Roboto", sans-serif;
 }
 
 /* =======================
