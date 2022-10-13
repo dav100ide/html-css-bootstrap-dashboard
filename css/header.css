@@ -1,3 +1,25 @@
+header {
+}
+.ms_logo {
+}
+
+.ms_logo > img.d-lg-none {
+   width: 3.75rem;
+   max-height: 3.75rem;
+}
 .ms_logo + .col {
    background-color: yellow;
+}
+
+header > .container-fluid,
+header > .container-fluid > .row {
+   height: 100%;
+}
+
+/* =======================
+      header nav
+========================== */
+
+header nav li:not(:last-child) {
+   padding-inline-end: 1rem;
 }

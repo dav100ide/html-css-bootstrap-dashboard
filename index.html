@@ -19,17 +19,36 @@
       <link rel="stylesheet" href="css/style.css" />
    </head>
    <body>
-      <header>
-         <div class="container-fluid">
-            <div class="row">
-               <div class="ms_logo col-1 col-lg-2">
-                  <!-- visible on mobile -->
-                  <!-- <img src="img/img/mobile-logo.png" alt="" class="mw-100" /> -->
-                  <!-- /visible on mobile -->
-                  logo
+      <header class="py-2">
+         <div class="container-fluid px-0">
+            <div class="row align-items-center gx-0">
+               <div class="ms_logo col-2">
+                  <!-- visible on md breakpoint -->
+                  <img src="img/img/mobile-logo.png" alt="" class="d-lg-none" />
+                  <!-- /visible on md breakpoint  -->
+                  <!-- visible on lg breakpoint -->
+                  <img src="img/img/logo.svg" alt="" class="d-none d-lg-block" />
+                  <!-- /visible on lg breakpoint -->
                </div>
-               <div class="col">search bar lungoooooooooooooooooooooooooooo</div>
-               <div class="col-1 col-lg-2">navigation</div>
+               <div class="col">search bar lungo</div>
+               <div class="col-1 col-lg-2">
+                  <nav>
+                     <ul class="d-flex justify-content-center">
+                        <li class="d-none d-lg-block">
+                           <a href=""><i class="fa-solid fa-list-ul"></i></a>
+                        </li>
+                        <li class="d-none d-lg-block">
+                           <a href=""><i class="fa-solid fa-circle-question"></i></a>
+                        </li>
+                        <li class="d-none d-lg-block">
+                           <a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                        </li>
+                        <li>
+                           <a href=""><i class="fa-solid fa-bell"></i></a>
+                        </li>
+                     </ul>
+                  </nav>
+               </div>
             </div>
          </div>
       </header>
