@@ -144,8 +144,11 @@
                      <!-- section classi -->
                      <section class="mb-3">
                         <div class="card">
-                           <div class="card-header">
-                              <h3>Prossime classi</h3>
+                           <div class="card-header d-flex">
+                              <span class="h3">Prossime classi</span>
+                              <!-- offcanvas toggler   -->
+                              <button class="ms-auto | btn btn-outline-primary"  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight""><i class="fa-solid fa-plus"></i></button>
+                              <!-- /offcanvas toggler   -->
                            </div>
                            <!-- bootstrap table -->
                            <div class="px-3 py-4">
@@ -330,6 +333,30 @@
             <!-- /page content -->
          </main>
       </div>
+      <!-- offcanvas -->
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+         <div class="offcanvas-header">
+           <h5 class="offcanvas-title" id="offcanvasRightLabel">Aggiugi classe</h5>
+           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+         </div>
+         <div class="offcanvas-body">
+            <form>
+               <div class="mb-3">
+                  <label for="name-canvas" class="form-label">Nome</label>
+                  <input type="text" id="name-canvas" class="form-control" placeholder="Classe --" />
+               </div>
+               <div class="mb-3">
+                  <label for="date-canvas" class="form-label">Data Inizio</label>
+                  <input type="date" id="date-canvas" class="form-control" />
+               </div>
+      
+               <button type="submit" class="btn btn-primary fw-bold">Salva</button>
+               <button class="btn btn-warning fw-bold">Reset</button>
+            </form>
+         </div>
+       </div>
+      <!-- /offcanvas -->
+      
       <!-- bootstrap JS -->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
       <!-- /bootstrap JS -->
