@@ -105,11 +105,12 @@
             <!-- /Lista aside in basso -->
          </aside>
          <main>
+            <!-- top bar -->
             <div class="ms_top-bar py-3">
                <div class="container-fluid">
                   <div class="row gy-3">
                      <!-- main info top-bar -->
-                     <div class="col-12 col-lg-7">
+                     <div class="col-12 col-lg-8">
                         <div class="row gy-3">
                            <div class="col-12 ms_badge__container">
                               <span class="h3">Boolean</span>
@@ -127,7 +128,7 @@
                      </div>
                      <!-- /main info top-bar -->
                      <!-- numero studenti online -->
-                     <div class="col-12 col-lg-5">
+                     <div class="col-12 col-lg-4">
                         <p>Studenti online negli ultimi 30 giorni</p>
                         <div class="h3">125</div>
                      </div>
@@ -135,15 +136,44 @@
                   </div>
                </div>
             </div>
+            <!-- /top bar -->
+            <!-- page content -->
             <div class="container-fluid">
                <div class="row page-content">
-                  <div class="col-12 col-lg-7">
+                  <div class="col-12 col-lg-8">
                      <!-- section classi -->
                      <section class="mb-3">
                         <div class="card">
                            <div class="card-header">
                               <h3>Prossime classi</h3>
                            </div>
+                           <!-- bootstrap table -->
+                           <div class="px-3 py-4">
+                              <table class="ms_table table">
+                                 <thead>
+                                    <tr>
+                                       <th>Nome</th>
+                                       <th class="d-none d-lg-table-cell">Data inizio</th>
+                                       <th class="d-none d-sm-table-cell">ROI</th>
+                                       <th>Stato</th>
+                                       <th>Azioni</th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr>
+                                       <td>
+                                          <img src="img/img/class-avatar.jpg" alt="" />
+                                          classe 75
+                                       </td>
+                                       <td class="d-none d-lg-table-cell">15 Feb 2021</td>
+                                       <td class="d-none d-sm-table-cell">20%</td>
+                                       <td><span class="badge badge-success">done</span></td>
+                                       <td>bottoni</td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </div>
+                           <!-- /bootstrap table -->
                         </div>
                      </section>
                      <!-- /section classi -->
@@ -159,7 +189,7 @@
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Come aggiungere una nuova classe?</button>
                                  </h2>
                                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body"><strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.</div>
+                                    <div class="accordion-body">ciao testo lungo ma inutile looool blah blcah blah blah</div>
                                  </div>
                               </div>
                               <div class="accordion-item">
@@ -167,7 +197,7 @@
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Come accedere alle informazioni dell'account?</button>
                                  </h2>
                                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body"><strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.</div>
+                                    <div class="accordion-body">ciao testo lungo ma inutile looool blah blcah blah blah</div>
                                  </div>
                               </div>
                               <div class="accordion-item">
@@ -175,7 +205,7 @@
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Posso usare questa dashboard da mobile?</button>
                                  </h2>
                                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body"><strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.</div>
+                                    <div class="accordion-body">ciao testo lungo ma inutile looool blah blcah blah blah</div>
                                  </div>
                               </div>
                            </div>
@@ -183,7 +213,7 @@
                      </section>
                      <!-- /section FAQ -->
                   </div>
-                  <div class="col-12 col-lg-5">
+                  <div class="col-12 col-lg-4">
                      <!-- section todo -->
                      <section class="mb-3">
                         <div class="card">
@@ -215,6 +245,7 @@
                   </div>
                </div>
             </div>
+            <!-- /page content -->
          </main>
       </div>
       <!-- bootstrap JS -->

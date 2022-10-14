@@ -15,3 +15,20 @@ main {
 .page-content {
    background-color: yellowgreen;
 }
+
+/* ms_table */
+
+.ms_table th:first-child,
+.ms_table td:first-child {
+   width: auto;
+}
+
+.ms_table th:not(:first-child),
+.ms_table td:not(:first-child) {
+   width: 6.5rem;
+}
+
+.ms_table td img {
+   height: 2rem;
+   max-width: 2rem;
+}
