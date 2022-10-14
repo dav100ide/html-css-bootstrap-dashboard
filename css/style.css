@@ -3,8 +3,8 @@
 @import url('header.css');
 @import url('aside.css');
 @import url('main.css');
-@import url('components/badge.css');
-@import url('components/command.css');
+@import url('components/components.css');
+
 /* =======================
       DEBUG  
 ========================== */

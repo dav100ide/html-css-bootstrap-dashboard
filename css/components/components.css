@@ -1,0 +1,46 @@
+/* ms_command */
+.ms_command {
+   background-color: rgba(0, 0, 0, 0.3);
+   transition: background-color 0.3s ease-in;
+   padding: 0.5rem;
+}
+
+.ms_command:hover {
+   background-color: rgba(255, 255, 255, 0.6);
+}
+
+.ms_command i {
+   font-size: 1.3rem;
+   width: 2rem; /* larghezza fissa per allineare l'icona con il testo che c'è a destrta*/
+   text-align: center;
+}
+
+/* ms_badge */
+.ms_badge {
+   background-color: rgba(0, 0, 0, 0.25);
+   font-weight: normal;
+   border-radius: 2rem;
+   font-size: 0.9rem;
+}
+
+.ms_badge__container > :not(:last-child) {
+   margin-inline-end: 0.5rem;
+}
+
+/* ms_action-btn */
+.ms_action-btn {
+   width: 2rem;
+   height: 2rem;
+   color: #6c757d;
+   border: 1px solid #6c757d;
+   border-radius: 0.3rem;
+}
+
+.ms_action-btn:not(:last-child) {
+   margin-inline-end: 0.2rem;
+}
+.ms_action-btn i {
+   /* ogni fontawesome sarà un quadrato perfetto */
+   width: 1.2rem;
+   height: 1.2rem;
+}

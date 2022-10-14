@@ -9,13 +9,6 @@ main {
    color: white;
 }
 
-/* =======================
-      page-content
-========================== */
-.page-content {
-   background-color: yellowgreen;
-}
-
 /* ms_table */
 
 .ms_table th:first-child,
