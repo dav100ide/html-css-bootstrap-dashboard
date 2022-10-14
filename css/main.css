@@ -25,3 +25,9 @@ main {
    height: 2rem;
    max-width: 2rem;
 }
+
+/* FAQ accordion */
+.accordion-button:focus {
+   box-shadow: none;
+   /* tolgo l'outline blu orrenda */
+}
