@@ -1,8 +1,5 @@
 aside {
-   display: flex;
-   flex-flow: column nowrap;
-
-   background-image: url("../img/img/sidebar-bg.png");
+   background-image: url('../img/img/sidebar-bg.png');
    background-size: cover;
    background-color: #061e34;
 

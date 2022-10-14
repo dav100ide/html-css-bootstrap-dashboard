@@ -1,9 +1,10 @@
-@import url("core.css");
-@import url("commons.css");
-@import url("header.css");
-@import url("aside.css");
-@import url("main.css");
-@import url("components/badge.css");
+@import url('core.css');
+@import url('commons.css');
+@import url('header.css');
+@import url('aside.css');
+@import url('main.css');
+@import url('components/badge.css');
+@import url('components/command.css');
 /* =======================
       DEBUG  
 ========================== */
