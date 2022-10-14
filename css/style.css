@@ -4,14 +4,3 @@
 @import url('aside.css');
 @import url('main.css');
 @import url('components/components.css');
-
-/* =======================
-      DEBUG  
-========================== */
-* {
-   word-break: break-all;
-}
-
-main {
-   background-color: darkkhaki;
-}

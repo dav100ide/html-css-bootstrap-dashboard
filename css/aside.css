@@ -2,10 +2,7 @@ aside {
    background-image: url('../img/img/sidebar-bg.png');
    background-size: cover;
    background-color: #061e34;
-
    color: white;
 }
 
-aside :last-child {
-   margin-top: auto;
-}
+/* .ms_command nel file components.css */
