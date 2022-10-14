@@ -2,17 +2,13 @@
       my VARIABLES   
 ========================== */
 :root {
-   /* colors */
-
-   /* misure macro aree*/
+   /* misure*/
    --header-height: 4.375rem;
-
-   /* misure micro aree */
-   --ms_space-1: 1rem;
 }
 /* =======================
       my reset   
 ========================== */
+
 ul {
    padding: 0;
    list-style: none;
@@ -29,6 +25,32 @@ button {
    color: inherit;
    border: none;
    background-color: transparent;
+}
+
+/* =======================
+      COMMONS
+========================== */
+/* struttura macro aree */
+body {
+   height: 100vh;
+}
+
+header {
+   height: var(--header-height);
+}
+
+.ms_page-container {
+   display: flex;
+   height: calc(100vh - var(--header-height));
+}
+
+aside {
+   flex-shrink: 0;
+   padding: 1rem;
+}
+
+main {
+   flex-grow: 1;
 }
 
 /* =======================
