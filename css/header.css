@@ -27,12 +27,12 @@ header > .container-fluid > .row {
 /* =======================
       header nav
 ========================== */
-header nav {
+header .col-auto:has(nav) {
    background-color: white;
    color: #5a5858;
 }
 
-header nav li {
+header nav li:not(:last-child) {
    padding-inline-end: 1rem;
 }
 
