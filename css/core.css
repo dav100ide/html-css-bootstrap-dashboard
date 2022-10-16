@@ -5,9 +5,10 @@
    /* misure*/
    --header-height: 4.375rem;
 }
-[data-theme="light"] {
+[data-theme='light'] {
    --primary-bg-color: white;
    --primary-bg-color-light: #f8f9fa;
+   --primary-bg-color-light-invert: #171717;
    --secondary-bg-color: #1c71e8;
    --accent-color: rgb(253, 177, 37);
    --primary-color: black;
@@ -15,9 +16,10 @@
    --aside-bg-color: #061e34;
 }
 
-[data-theme="dark"] {
+[data-theme='dark'] {
    --primary-bg-color: black;
    --primary-bg-color-light: #171717;
+   --primary-bg-color-light-invert: #f8f9fa;
    --secondary-bg-color: rgb(0, 0, 53);
    --accent-color: lightgreen;
    --primary-color: white;
@@ -84,9 +86,17 @@ main {
    color: var(--primary-color);
    background-color: var(--primary-bg-color);
 }
+.accordion-button:not(.collapsed) {
+   background-color: var(--primary-bg-color-light);
+}
+
+.form-check-input {
+   background-color: var(--primary-bg-color-light);
+   border-color: var(--primary-bg-color-light-invert);
+}
 /* =======================
       TYPOGRAPHY  
 ========================== */
 body {
-   font-family: "Roboto", sans-serif;
+   font-family: 'Roboto', sans-serif;
 }
