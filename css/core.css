@@ -49,6 +49,24 @@ button {
    background-color: transparent;
 }
 
+/* BS color reset */
+.card,
+.table,
+.list-group-item,
+.accordion-button,
+.accordion-item {
+   color: var(--primary-color);
+   background-color: var(--primary-bg-color);
+}
+.accordion-button:not(.collapsed) {
+   background-color: var(--primary-bg-color-light);
+}
+
+.form-check-input {
+   background-color: var(--primary-bg-color-light);
+   border-color: var(--primary-bg-color-light-invert);
+}
+
 /* =======================
       COMMONS
 ========================== */
@@ -77,23 +95,6 @@ main {
    flex-grow: 1;
 }
 
-/* BS color reset */
-.card,
-.table,
-.list-group-item,
-.accordion-button,
-.accordion-item {
-   color: var(--primary-color);
-   background-color: var(--primary-bg-color);
-}
-.accordion-button:not(.collapsed) {
-   background-color: var(--primary-bg-color-light);
-}
-
-.form-check-input {
-   background-color: var(--primary-bg-color-light);
-   border-color: var(--primary-bg-color-light-invert);
-}
 /* =======================
       TYPOGRAPHY  
 ========================== */
