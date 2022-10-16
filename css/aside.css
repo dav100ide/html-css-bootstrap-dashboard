@@ -1,8 +1,8 @@
 aside {
-   background-image: url('../img/img/sidebar-bg.png');
+   background-image: url("../img/img/sidebar-bg.png");
    background-size: cover;
-   background-color: #061e34;
-   color: white;
+   background-color: var(--aside-bg-color);
+   color: var(--primary-color-invert);
 }
 
 /* .ms_command nel file components.css */

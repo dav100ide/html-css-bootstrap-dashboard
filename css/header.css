@@ -1,5 +1,9 @@
 header {
-   background-color: #f8f9fa;
+   background-color: var(--primary-bg-color-light);
+}
+
+[data-theme="dark"] .ms_logo {
+   filter: brightness(6);
 }
 
 .ms_logo > img.d-lg-none {
@@ -23,7 +27,7 @@ header {
       header nav
 ========================== */
 header .col-auto:has(nav) {
-   background-color: white;
+   background-color: var(--primary-bg-color);
    color: #5a5858;
 }
 
@@ -32,5 +36,5 @@ header nav li:not(:last-child) {
 }
 
 header nav li:last-child {
-   color: #ff8f00;
+   color: var(--accent-color);
 }

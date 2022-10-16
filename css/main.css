@@ -5,7 +5,7 @@ main {
       top-bar
 ========================== */
 .ms_top-bar {
-   background-color: #1c71e8;
+   background-color: var(--secondary-bg-color);
    color: white;
 }
 

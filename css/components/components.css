@@ -1,5 +1,6 @@
 /* ms_command */
 .ms_command {
+   color: white;
    background-color: rgba(0, 0, 0, 0.3);
    transition: background-color 0.3s ease-in;
    padding: 0.5rem;

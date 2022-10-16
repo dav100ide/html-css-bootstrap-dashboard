@@ -5,6 +5,26 @@
    /* misure*/
    --header-height: 4.375rem;
 }
+[data-theme="light"] {
+   --primary-bg-color: white;
+   --primary-bg-color-light: #f8f9fa;
+   --secondary-bg-color: #1c71e8;
+   --accent-color: rgb(253, 177, 37);
+   --primary-color: black;
+   --primary-color-invert: white;
+   --aside-bg-color: #061e34;
+}
+
+[data-theme="dark"] {
+   --primary-bg-color: black;
+   --primary-bg-color-light: #171717;
+   --secondary-bg-color: rgb(0, 0, 53);
+   --accent-color: lightgreen;
+   --primary-color: white;
+   --primary-color-invert: black;
+   --aside-bg-color: #10061a;
+}
+
 /* =======================
       my reset   
 ========================== */
@@ -33,6 +53,8 @@ button {
 /* struttura macro aree */
 body {
    height: 100vh;
+   color: var(--primary-color);
+   background-color: var(--primary-bg-color);
 }
 
 header {
@@ -53,9 +75,18 @@ main {
    flex-grow: 1;
 }
 
+/* BS color reset */
+.card,
+.table,
+.list-group-item,
+.accordion-button,
+.accordion-item {
+   color: var(--primary-color);
+   background-color: var(--primary-bg-color);
+}
 /* =======================
       TYPOGRAPHY  
 ========================== */
 body {
-   font-family: 'Roboto', sans-serif;
+   font-family: "Roboto", sans-serif;
 }
